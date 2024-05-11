@@ -7,11 +7,6 @@ pipeline {
         git 'https://github.com/1234shaik/spring-petclinic.git'
       }
     }
-    stage ("build") {
-      steps {
-        bat 'mvn install'
-      }
-    }
   }
 }
       
